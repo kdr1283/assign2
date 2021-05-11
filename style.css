@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Mulish";
+    src: url(fonts/Mulish/static/Mulish-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url(fonts/Mulish/static/Mulish-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url(fonts/Mulish/static/Mulish-Bold.ttf);
+    font-weight: bold;
+}
+
+div.content {
+    font-family: "Mulish";
+    font-style: normal;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 0px;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    word-wrap: break-word;
+    text-align: center; 
+    vertical-align: middle;
+}
